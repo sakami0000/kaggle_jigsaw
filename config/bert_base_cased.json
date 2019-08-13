@@ -1,0 +1,16 @@
+{
+    "lm_model_name": "bert-base-cased",
+    "max_len": 241,
+    "max_head_len": 128,
+    "epochs": 2,
+    "down_sample_frac": 0.5,
+    "lr": 2.5e-5,
+    "batch_size": 32,
+    "accumulation_steps": 1,
+    "lr_weight_decay_coef": 0.95,
+    "warmup": 0.05,
+    "old_data": false,
+    "old_fine_tuned": true,
+    "device": "cuda",
+    "seed": 221
+}

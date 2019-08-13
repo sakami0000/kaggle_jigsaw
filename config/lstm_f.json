@@ -1,0 +1,13 @@
+{
+    "max_len": 220,
+    "max_features": 100000,
+    "batch_size": 512,
+    "train_epochs": 10,
+    "tolerance": 10,
+    "num_folds": 5,
+    "lr": 1e-3,
+    "loss_alpha": 0.1,
+    "loss_beta": 1.0,
+    "device": "cuda",
+    "seed": 1029
+}

@@ -1,0 +1,16 @@
+{
+    "lm_model_name": "bert-large-uncased",
+    "max_len": 241,
+    "max_head_len": 160,
+    "epochs": 2,
+    "down_sample_frac": 0.5,
+    "lr": 3.2e-5,
+    "batch_size": 16,
+    "accumulation_steps": 4,
+    "lr_weight_decay_coef": 0.95,
+    "warmup": 0.05,
+    "old_data": false,
+    "old_fine_tuned": true,
+    "device": "cuda",
+    "seed": 1029
+}

@@ -1,0 +1,43 @@
+{
+    "max_len": 220,
+    "max_features": 100000,
+    "batch_size": 512,
+    "train_epochs": 6,
+    "n_splits": 5,
+    "start_lr": 1e-4,
+    "max_lr": 5e-3,
+    "last_lr": 1e-3,
+    "warmup": 0.2,
+    "pseudo_label": true,
+    "mu": 0.9,
+    "updates_per_epoch": 10,
+    "lstm_gru": {
+        "lstm_hidden_size": 120,
+        "gru_hidden_size": 60,
+        "embedding_dropout": 0.2,
+        "out_size": 20,
+        "out_dropout": 0.1
+    },
+    "lstm_capsule_atten": {
+        "lstm_hidden_size": 128,
+        "gru_hidden_size": 128,
+        "embedding_dropout": 0.2,
+        "dropout1": 0.2,
+        "dropout2": 0.1,
+        "out_size": 16,
+        "num_capsule": 5,
+        "dim_capsule": 5,
+        "caps_out": 1,
+        "caps_dropout": 0.3
+    },
+    "lstm_conv": {
+        "lstm_hidden_size": 128,
+        "gru_hidden_size": 128,
+        "n_channels": 64,
+        "embedding_dropout": 0.2,
+        "out_size": 20,
+        "out_dropout": 0.1
+    },
+    "device": "cuda",
+    "seed": 1029
+}

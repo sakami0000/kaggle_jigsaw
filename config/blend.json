@@ -1,0 +1,5 @@
+{
+    "n_folds": 10,
+    "n_trials": 300,
+    "threshold": 0.03
+}

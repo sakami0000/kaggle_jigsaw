@@ -1,0 +1,17 @@
+{
+    "lm_model_name": "gpt2",
+    "max_len": 220,
+    "max_head_len": 128,
+    "epochs": 2,
+    "down_sample_frac": 0.5,
+    "dropout_rate": 0.1,
+    "lr": 3e-5,
+    "batch_size": 32,
+    "accumulation_steps": 1,
+    "lr_weight_decay_coef": 1.0,
+    "warmup": 0.05,
+    "old_data": false,
+    "old_fine_tuned": false,
+    "device": "cuda",
+    "seed": 1234
+}

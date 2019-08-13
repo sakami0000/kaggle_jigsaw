@@ -1,0 +1,16 @@
+{
+    "lm_model_name": "bert-large-cased-whole-word-masking",
+    "max_len": 241,
+    "max_head_len": 128,
+    "epochs": 2,
+    "down_sample_frac": 0,
+    "lr": 3e-5,
+    "batch_size": 16,
+    "accumulation_steps": 2,
+    "lr_weight_decay_coef": 0.95,
+    "warmup": 0.05,
+    "old_data": true,
+    "old_fine_tuned": false,
+    "device": "cuda",
+    "seed": 2127
+}
